@@ -1,12 +1,10 @@
 # NixGuard
 
 ## Objective
-[Brief Objective]
 
 The NixGuard project demonstrates the use of NixGuard and n8n to build an automated cybersecurity workflow capable of detecting threats, analyzing suspicious activity, and executing incident response actions. The goal is to showcase practical skills in security automation, API integration, and incident handling in a simulated SOC environment.
 
 ### Skills Learned
-[Bullet Points]
 
 - ✅ API Integration – Gained hands-on experience integrating the NixGuard API into automated workflows using n8n for real-time threat intelligence and data ingestion.
 - ⚙️ Security Automation – Designed and implemented automated detection and response workflows to analyze network traffic, detect anomalies, and trigger mitigation steps.
@@ -15,7 +13,6 @@ The NixGuard project demonstrates the use of NixGuard and n8n to build an automa
 - 📊 Workflow Design with n8n – Developed scalable, low-code workflows to automate repetitive SOC analyst tasks, demonstrating efficiency in operationalizing incident detection and response.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
 - NixGuard – AI-powered cybersecurity tool used for threat detection, log analysis, and identifying suspicious network activity.
 - n8n – Low-code workflow automation platform used to build and orchestrate automated threat response workflows.
