@@ -48,12 +48,6 @@ Enabled SSH and created a new user to be used as a target by the Kali VM:
 
 ![image](https://github.com/user-attachments/assets/046a2b3c-36e7-47d0-b9e4-84df6fd2bec2)
 
-
-
-
-
-
-
 After opening up the SSH port on the Ubuntu Virtual Machine the agent is installed on, NixGuard logged the network changes in the Ubuntu VM’s settings and created an alert depicting the timestamp (March 5, 2025 at 4:39:46 PM EST) and port number (22).
 
 ![image](https://github.com/user-attachments/assets/c8122044-3023-43a0-8934-c9ffe38e1361)
@@ -62,4 +56,13 @@ Used the Nix AI to analyze the log and get a deeper dive on what caused this ale
 
 ![image](https://github.com/user-attachments/assets/eb2b4997-591b-4c3a-affc-1a48e65f4271)
 
+After enabling SSH, a new alert appeared in NixGuard:
 
+![image](https://github.com/user-attachments/assets/152bf315-3e84-4ad4-9ad8-578277c8c894)
+
+The installation of SSH Server and enablement of SSH caused NixGuard to log it as a possible kernel level rootkit:
+
+![image](https://github.com/user-attachments/assets/a96862eb-a824-4c69-9438-3c3c6625ae7c)
+
+Penetration Test:
+-	Hydra Attack exercise: The Hydra tool within Kali Linux was used to attempt brute force login on the Ubuntu VM by using the command hydra -l hydratest -P /usr/share/wordlists/rockyou.txt.gz ssh://<target IP>
