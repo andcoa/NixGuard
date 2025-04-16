@@ -100,4 +100,4 @@ Looking up the CVE in the CVE database, the description of the vulnerability mat
 
 ![image](https://github.com/user-attachments/assets/5955e1d1-1054-4928-aff5-20eb5ff20d54)
 
-The conclusion of the report can be found in the [n8n Automation](https://github.com/andcoa) and [Incident Response Plan](https://github.com/andcoa)
+The conclusion of the report can be found in the [n8n Automation](https://github.com/andcoa) and [Incident Response Plan](https://github.com/andcoa).
