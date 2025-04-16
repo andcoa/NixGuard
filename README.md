@@ -65,4 +65,12 @@ The installation of SSH Server and enablement of SSH caused NixGuard to log it a
 ![image](https://github.com/user-attachments/assets/a96862eb-a824-4c69-9438-3c3c6625ae7c)
 
 Penetration Test:
--	Hydra Attack exercise: The Hydra tool within Kali Linux was used to attempt brute force login on the Ubuntu VM by using the command hydra -l hydratest -P /usr/share/wordlists/rockyou.txt.gz ssh://<target IP>
+-	Hydra Attack exercise: The Hydra tool within Kali Linux was used to attempt brute force login on the Ubuntu VM by using the command hydra -l hydratest -P /usr/share/wordlists/rockyou.txt.gz ssh://"target IP"
+
+![image](https://github.com/user-attachments/assets/ba3991b2-991a-4be5-b8ff-ee6212f06dcf)
+Note: Hydra tested passwords from the rockyou.txt.gz file to obtain the hydratest user login.
+
+-	NixGuard did not detect any new event regarding the Kali Linux attack on the Ubuntu VM on which NixGuard is installed on.
+
+![image](https://github.com/user-attachments/assets/f335740d-c5a2-4d01-b94e-496868d91bdc)
+
