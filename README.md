@@ -34,6 +34,32 @@ NixGuard interface launched after the successful onboarding of the agent.
 
 ![image](https://github.com/user-attachments/assets/0bf92f28-0e14-42ce-b74c-0f1f83b14ad9)
 
-After initial setup, I conducted the [Penetration Testing Exercise](https://github.com/andcoa)
+2. Network Analysis
 
-*Ref 1: Network Diagram*
+In order to test the network analysis capabilities of NixGuard, a brute force Hydra attack exercise using Kali Linux was conducted. First, each VM was set configured to be accessible to the network and to get a static IP which the Kali VM can use to attack the Ubuntu VM with.
+
+![image](https://github.com/user-attachments/assets/e39593d6-d332-46da-bfdb-481e675ff6c6)
+
+Installed SSHServer on the Ubuntu VM:
+
+![image](https://github.com/user-attachments/assets/f7596f69-c94c-4c85-9e5f-c0fd58e6bf49)
+
+Enabled SSH and created a new user to be used as a target by the Kali VM:
+
+![image](https://github.com/user-attachments/assets/046a2b3c-36e7-47d0-b9e4-84df6fd2bec2)
+
+
+
+
+
+
+
+After opening up the SSH port on the Ubuntu Virtual Machine the agent is installed on, NixGuard logged the network changes in the Ubuntu VM’s settings and created an alert depicting the timestamp (March 5, 2025 at 4:39:46 PM EST) and port number (22).
+
+![image](https://github.com/user-attachments/assets/c8122044-3023-43a0-8934-c9ffe38e1361)
+
+Used the Nix AI to analyze the log and get a deeper dive on what caused this alert, confirming if it is a false-positive. The log depicts that port 22 was opened or closed.
+
+![image](https://github.com/user-attachments/assets/eb2b4997-591b-4c3a-affc-1a48e65f4271)
+
+
