@@ -77,3 +77,5 @@ Note: Hydra tested passwords from the rockyou.txt.gz file to obtain the hydrates
 3. Threat Detection
 
 Downloaded the EICAR test virus on the Ubuntu Virtual Machine
+![image](https://github.com/user-attachments/assets/be9695df-a14d-43e7-a05d-5534b0c4d9eb)
+
