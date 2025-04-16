@@ -2,7 +2,7 @@
 
 ## Objective
 
-The NixGuard project demonstrates the use of NixGuard and n8n to build an automated cybersecurity workflow capable of detecting threats, analyzing suspicious activity, and executing incident response actions. The goal is to showcase practical skills in security automation, API integration, and incident handling in a simulated SOC environment.
+The following report involves the set up, testing and automation of NixGuard features and capabilities with the intent of investigating suspicious activities on a network. In order to fully asses NixGuard’s capabilities, the report is structured within the focus areas of Network Analysis, Threat Detection and Incident Response Planning.
 
 ### Skills Learned
 
@@ -19,10 +19,21 @@ The NixGuard project demonstrates the use of NixGuard and n8n to build an automa
 - Virtual Lab Environment – Simulated real-world network using Ubuntu and Kali Linux VMs for testing intrusion scenarios and monitoring system behavior.
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+1. Environment Setup
+-	Signed up for the free version of NixGuard at https://thenex.world/security/subscribe
+-	Set up a Ubuntu Virtual Machine in VirtualBox
+-	Executed the following command to install NixGuard on the Ubuntu Virtual Machine:
 
-Every screenshot should have some text explaining what the screenshot is about.
+![image](https://github.com/user-attachments/assets/5b83bf28-b53b-408e-b252-aa9c8b523df2)
 
-Example below.
+Succesfully set up NixGuard in the Ubuntu Virtual Machine and clicked “Done” on the NixGuard website.
+
+![image](https://github.com/user-attachments/assets/2a2b4870-a36b-4092-bf34-2692a9770076)
+
+NixGuard interface launched after the successful onboarding of the agent.
+
+![image](https://github.com/user-attachments/assets/285bdc42-c2b7-491c-bdf3-70ab243f8491)
+
+After initial setup, I conducted the [Penetration Testing Exercise](https://github.com/andcoa)
 
 *Ref 1: Network Diagram*
