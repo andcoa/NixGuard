@@ -72,8 +72,7 @@ Note: Hydra tested passwords from the rockyou.txt.gz file to obtain the hydrates
 
 -	The presence of SSH and PAM activity indicates that NixGuard identified critical services on the monitored endpoint. SSH (Secure Shell) is a protocol widely used for secure communication between systems, while PAM (Pluggable Authentication Module) relates to the authentication framework managing access for services like SSH. This likely correlates to the brute force testing performed using Hydra, showcasing the detection of login attempts.
 
-![image](https://github.com/user-attachments/assets/f9759d0e-1114-493b-a8e7-9df7917c2eab)
-
+![image](https://github.com/user-attachments/assets/4bafe43d-fd92-4334-b144-cc507361d0c1)
 
 3. Threat Detection
 
