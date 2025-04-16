@@ -77,5 +77,27 @@ Note: Hydra tested passwords from the rockyou.txt.gz file to obtain the hydrates
 3. Threat Detection
 
 Downloaded the EICAR test virus on the Ubuntu Virtual Machine
+
 ![image](https://github.com/user-attachments/assets/be9695df-a14d-43e7-a05d-5534b0c4d9eb)
 
+Refreshed NixGuard to get an updated Nix map. Among the new events, three notable new activity bubbles became available: “10 Vulnerabilities”, “(1) – Level 7” and “(9) – Level 10”
+
+![image](https://github.com/user-attachments/assets/189f39c8-9b63-4ea9-b028-f6fedf0801e0)
+
+Used NixGuard to see the log of the bad actor and the Nix AI client to summarize the EICAR entry found for further analysis. The agent successfully identified the file (eicar_com.zip) and provided the timestamp (March 3, 2025 at 4:20:13 PM EST) and location (/home/ancoa/Downloads/eicar_com.zip)
+
+![image](https://github.com/user-attachments/assets/694844c8-9a5d-4ef5-897d-ef45db571228)
+
+Nix AI breakdown summarizes the alert for easier readability and provides recommended actions for the detected threat
+
+![image](https://github.com/user-attachments/assets/ccfbc95c-8247-4641-9a47-12235090d990)
+
+NixGuard also logged a vulnerability corresponding to the EICAR virust test, displaying the timestamp (March 3, 2025 at 04:02:26 PM EST), severity (Medium), cve (CVE-2024-35195)
+
+![image](https://github.com/user-attachments/assets/c34fc879-6715-48f3-a9f6-c234eb0af514)
+
+Looking up the CVE in the CVE database, the description of the vulnerability matches the one depicted in NixGuard.
+
+![image](https://github.com/user-attachments/assets/5955e1d1-1054-4928-aff5-20eb5ff20d54)
+
+The conclusion of the report can be found in the [n8n Automation](https://github.com/andcoa) and [Incident Response Plan](https://github.com/andcoa)
