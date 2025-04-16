@@ -68,7 +68,7 @@ Penetration Test:
 -	Hydra Attack exercise: The Hydra tool within Kali Linux was used to attempt brute force login on the Ubuntu VM by using the command hydra -l hydratest -P /usr/share/wordlists/rockyou.txt.gz ssh://"target IP"
 
 ![image](https://github.com/user-attachments/assets/9cdbbcad-982b-4f29-a753-1f0e8f19cbef)
-Note: Hydra tested passwords from the rockyou.txt.gz file to obtain the hydratest user login.
+* *Note: Hydra tested passwords from the rockyou.txt.gz file to obtain the hydratest user login.
 
 -	NixGuard did not detect any new event regarding the Kali Linux attack on the Ubuntu VM on which NixGuard is installed on.
 
