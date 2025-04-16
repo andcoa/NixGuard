@@ -24,7 +24,7 @@ The following report involves the set up, testing and automation of NixGuard fea
 -	Set up a Ubuntu Virtual Machine in VirtualBox
 -	Executed the following command to install NixGuard on the Ubuntu Virtual Machine:
 
-![image](https://github.com/user-attachments/assets/5b83bf28-b53b-408e-b252-aa9c8b523df2)
+![image](https://github.com/user-attachments/assets/984a5dd0-5e08-4db6-8b13-84f8b7c8f4a6)
 
 Succesfully set up NixGuard in the Ubuntu Virtual Machine and clicked “Done” on the NixGuard website.
 
@@ -32,7 +32,7 @@ Succesfully set up NixGuard in the Ubuntu Virtual Machine and clicked “Done”
 
 NixGuard interface launched after the successful onboarding of the agent.
 
-![image](https://github.com/user-attachments/assets/285bdc42-c2b7-491c-bdf3-70ab243f8491)
+![image](https://github.com/user-attachments/assets/0bf92f28-0e14-42ce-b74c-0f1f83b14ad9)
 
 After initial setup, I conducted the [Penetration Testing Exercise](https://github.com/andcoa)
 
