@@ -21,7 +21,7 @@ The following report involves the set up, testing and automation of NixGuard fea
 ## Steps
 1. Environment Setup
 -	Signed up for the free version of NixGuard at https://thenex.world/security/subscribe
--	Set up a Ubuntu Virtual Machine in VirtualBox
+-	Set up an Ubuntu and Linux Virtual Machines in VirtualBox
 -	Executed the following command to install NixGuard on the Ubuntu Virtual Machine:
 
 ![image](https://github.com/user-attachments/assets/984a5dd0-5e08-4db6-8b13-84f8b7c8f4a6)
