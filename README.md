@@ -36,7 +36,7 @@ NixGuard interface launched after the successful onboarding of the agent.
 
 2. Network Analysis
 
-In order to test the network analysis capabilities of NixGuard, a brute force Hydra attack exercise using Kali Linux was conducted. First, each VM was set configured to be accessible to the network and to get a static IP which the Kali VM can use to attack the Ubuntu VM with.
+In order to test the network analysis capabilities of NixGuard, a brute force Hydra attack exercise using Kali Linux was conducted. First, each VM was configured to be accessible to the network and to get a static IP which the Kali VM can use to attack the Ubuntu VM with.
 
 ![image](https://github.com/user-attachments/assets/e39593d6-d332-46da-bfdb-481e675ff6c6)
 
