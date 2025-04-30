@@ -4,7 +4,7 @@
 
 The following report involves the set up, testing and automation of NixGuard features and capabilities with the intent of investigating suspicious activities on a network. In order to fully asses NixGuard’s capabilities, the report is structured within the focus areas of Network Analysis, Threat Detection and Incident Response Planning.
 
-### Skills Learned
+## Skills Learned
 
 - API Integration – Gained hands-on experience integrating the NixGuard API into automated workflows using n8n for real-time threat intelligence and data ingestion.
 - Security Automation – Designed and implemented automated detection and response workflows to analyze network traffic, detect anomalies, and trigger mitigation steps.
@@ -12,7 +12,7 @@ The following report involves the set up, testing and automation of NixGuard fea
 - Incident Response Planning – Created structured response plans covering containment, eradication, recovery, and mitigation for real-world attacks like rootkits and brute-force attempts.
 - Workflow Design with n8n – Developed scalable, low-code workflows to automate repetitive SOC analyst tasks, demonstrating efficiency in operationalizing incident detection and response.
 
-### Tools Used
+## Tools Used
 
 - NixGuard – AI-powered cybersecurity tool used for threat detection, log analysis, and identifying suspicious network activity.
 - n8n – Low-code workflow automation platform used to build and orchestrate automated threat response workflows.
